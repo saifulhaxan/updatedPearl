@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Redirect .php URLs to extensionless
+RewriteCond %{THE_REQUEST} \s/PearlShire/([^\s]+)\.php[?\s] [NC]
+RewriteRule ^(.*)\.php$ /PearlShire/$1 [R=301,L]
+
+# Serve extensionless URLs as .php files
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
