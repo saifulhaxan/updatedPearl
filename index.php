@@ -16,7 +16,7 @@
       }
 
       .CardsCard__description {
-         width: 300px;
+         /* width: 300px; */
          margin-top: -60px;
       }
 
@@ -67,15 +67,20 @@
       .CardsNewsItem {
          height: auto !important;
       }
-      .slick-dots{
-          display:none;
-          background:#000;
+
+      .slick-dots {
+         display: none;
+         background: #000;
       }
 
 
       @media(max-width: 1600px) {
          .CardsNewsItem__image {
-            height: 205px;
+            height: 415px;
+         }
+
+         .fp-overflow footer {
+            padding: 0;
          }
 
          .CardsCard__description_projects {
@@ -109,7 +114,7 @@
       } */
 
 
-      .footer_section > div {
+      .footer_section>div {
          display: flex;
          align-items: center;
       }
@@ -118,15 +123,15 @@
          width: 100%;
       }
 
-     /* Adjust layout for smaller screens */
-  @media (max-width: 768px) {
-    .slick-slider img {
-      height: 100vh; /* Full height on mobile */
-      object-fit: cover; /* Ensure images are responsive */
-    }
-   }
-  
-
+      /* Adjust layout for smaller screens */
+      @media (max-width: 768px) {
+         .slick-slider img {
+            height: 100vh;
+            /* Full height on mobile */
+            object-fit: cover;
+            /* Ensure images are responsive */
+         }
+      }
    </style>
 
    <?php include 'navigation.php'; ?>
@@ -179,8 +184,8 @@
                      <h3 class="CardsCard__title">Crafting real estate excellence</h3>
                      <p class="CardsCard__description">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum has been the </p>
                      <button class="StandardButton CardsCard__action-button hover border" fdprocessedid="k4ed4">
-                         <a href="about-us"><span class="StandardButton__text">Read More</span></a>
-                        
+                        <a href="about-us"><span class="StandardButton__text">Read More</span></a>
+
                      </button>
                   </div>
                </div>
@@ -197,15 +202,15 @@
                      <h3 class="CardsCard__title">Time-Honoured Values</h3>
                      <p class="CardsCard__description">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum has been the </p>
                      <button class="StandardButton CardsCard__action-button hover border" fdprocessedid="7sfztr">
-                         <a href="our-values"><span class="StandardButton__text">Read More</span></a>
-                        
+                        <a href="our-values"><span class="StandardButton__text">Read More</span></a>
+
                      </button>
                   </div>
                </div>
             </div>
          </div>
       </section>
-      
+
       <section class="CardsCard card_3 section" id="guiding">
          <div class="CardsCard card_1">
             <div class="wrapper">
@@ -216,8 +221,8 @@
                      <h3 class="CardsCard__title">Upholding Success. Our<br> Core Principles.</h3>
                      <p class="CardsCard__description">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum has been the </p>
                      <button class="StandardButton CardsCard__action-button hover border" fdprocessedid="9gtvok">
-                         <a href="guiding-principles"><span class="StandardButton__text">Read More</span></a>
-                        
+                        <a href="guiding-principles"><span class="StandardButton__text">Read More</span></a>
+
                      </button>
                   </div>
                </div>
@@ -234,8 +239,8 @@
                      <h3 class="CardsCard__title">A Culture of Excellence. <br>Our Work Environment.</h3>
                      <p class="CardsCard__description">is simply dummy text of the printing and typesetting industry. Lor</p>
                      <button class="StandardButton CardsCard__action-button hover border" fdprocessedid="49uuml">
-                         <a href="corporate-culture"><span class="StandardButton__text">Read More</span></a>
-                        
+                        <a href="corporate-culture"><span class="StandardButton__text">Read More</span></a>
+
                      </button>
                   </div>
                </div>
@@ -265,70 +270,90 @@
                         <img src="https://mered.ae/_ipx/f_webp,q_85,s_800x800/assets/m/images/pages/news/68.jpg" width="800" height="800">
                         <div class="CardsNewsItem__gradient"></div>
                      </div>
-                     <h4 class="CardsNewsItem__title">
-                        <p> Unveils New Headquarters in Dubai Internet City</p>
-                     </h4>
-                     <p class="CardsCard__description CardsCard__description_projects">a asd asd asd asd asd as sadasd d a</p>
-                     <button class="StandardButton hover border" fdprocessedid="wfbpli">
-                         <span class="StandardButton__text">read more</span>
-                        
-                     </button>
+                     <div class="cardContent">
+                        <div class="cardArea">
+                           <h4 class="CardsNewsItem__title">
+                              <p> Unveils New Headquarters in Dubai Internet City</p>
+                           </h4>
+                           <p class="CardsCard__description CardsCard__description_projects">a asd asd asd asd asd as sadasd d a</p>
+                           <button class="StandardButton hover border" fdprocessedid="wfbpli">
+                              <span class="StandardButton__text">read more</span>
+
+                           </button>
+                        </div>
+                     </div>
                   </article>
                   <article class="CardsNewsItem">
                      <div class="CardsNewsItem__image">
                         <img src="https://mered.ae/_ipx/f_webp,q_85,s_800x800/assets/m/images/pages/news/67.jpg" width="800" height="800">
                         <div class="CardsNewsItem__gradient"></div>
                      </div>
-                     <h4 class="CardsNewsItem__title">
-                        <p> Expands to Abu Dhabi with Prime Waterfront Property on Al Reem Island</p>
-                     </h4>
-                     <p class="CardsCard__description CardsCard__description_projects">a asd asd asd asd asd as sadasd d a</p>
-                     <button class="StandardButton hover border" fdprocessedid="4spwao">
-                         <span class="StandardButton__text">read more</span>
-                        
-                     </button>
+                     <div class="cardContent">
+                        <div class="cardArea">
+                           <h4 class="CardsNewsItem__title">
+                              <p> Expands to Abu Dhabi with Prime Waterfront Property on Al Reem Island</p>
+                           </h4>
+                           <p class="CardsCard__description CardsCard__description_projects">a asd asd asd asd asd as sadasd d a</p>
+                           <button class="StandardButton hover border" fdprocessedid="4spwao">
+                              <span class="StandardButton__text">read more</span>
+
+                           </button>
+                        </div>
+                     </div>
                   </article>
                   <article class="CardsNewsItem">
                      <div class="CardsNewsItem__image">
                         <img src="https://mered.ae/_ipx/f_webp,q_85,s_800x800/assets/m/images/pages/news/65.jpg" width="800" height="800">
                         <div class="CardsNewsItem__gradient"></div>
                      </div>
-                     <h4 class="CardsNewsItem__title">
-                        <p>Six Elements That Attract European Buyers to UAE Luxury Real Estate</p>
-                     </h4>
-                     <p class="CardsCard__description CardsCard__description_projects">a asd asd asd asd asd as sadasd d a</p>
-                     <button class="StandardButton hover border" fdprocessedid="8jiew4">
-                         <span class="StandardButton__text">read more</span>
-                        
-                     </button>
+                     <div class="cardContent">
+                        <div class="cardArea">
+                           <h4 class="CardsNewsItem__title">
+                              <p>Six Elements That Attract European Buyers to UAE Luxury Real Estate</p>
+                           </h4>
+                           <p class="CardsCard__description CardsCard__description_projects">a asd asd asd asd asd as sadasd d a</p>
+                           <button class="StandardButton hover border" fdprocessedid="8jiew4">
+                              <span class="StandardButton__text">read more</span>
+
+                           </button>
+                        </div>
+                     </div>
                   </article>
                   <article class="CardsNewsItem">
                      <div class="CardsNewsItem__image">
                         <img src="https://mered.ae/_ipx/f_webp,q_85,s_800x800/assets/m/images/pages/news/66.jpg" width="800" height="800">
                         <div class="CardsNewsItem__gradient"></div>
                      </div>
-                     <h4 class="CardsNewsItem__title">
-                        <p> CEO Explores Branded Residences in Design Middle East Magazine</p>
-                     </h4>
-                     <p class="CardsCard__description CardsCard__description_projects">a asd asd asd asd asd as sadasd d a</p>
-                     <button class="StandardButton hover border" fdprocessedid="j12qf">
-                         <span class="StandardButton__text">read more</span>
-                        
-                     </button>
+                     <div class="cardContent">
+                        <div class="cardArea">
+                           <h4 class="CardsNewsItem__title">
+                              <p> CEO Explores Branded Residences in Design Middle East Magazine</p>
+                           </h4>
+                           <p class="CardsCard__description CardsCard__description_projects">a asd asd asd asd asd as sadasd d a</p>
+                           <button class="StandardButton hover border" fdprocessedid="j12qf">
+                              <span class="StandardButton__text">read more</span>
+
+                           </button>
+                        </div>
+                     </div>
                   </article>
                   <article class="CardsNewsItem">
                      <div class="CardsNewsItem__image">
                         <img src="https://mered.ae/_ipx/f_webp,q_85,s_800x800/assets/m/images/pages/news/52.jpg" width="800" height="800">
                         <div class="CardsNewsItem__gradient"></div>
                      </div>
-                     <h4 class="CardsNewsItem__title">
-                        <p>Diana Nilipovscaia Joins Exclusive Dubai Business Women Council (DBWC)</p>
-                     </h4>
-                     <p class="CardsCard__description CardsCard__description_projects">a asd asd asd asd asd as sadasd d a</p>
-                     <button class="StandardButton hover border">
-                         <span class="StandardButton__text">read more</span>
-                        
-                     </button>
+                     <div class="cardContent">
+                        <div class="cardArea">
+                           <h4 class="CardsNewsItem__title">
+                              <p>Diana Nilipovscaia Joins Exclusive Dubai Business Women Council (DBWC)</p>
+                           </h4>
+                           <p class="CardsCard__description CardsCard__description_projects">a asd asd asd asd asd as sadasd d a</p>
+                           <button class="StandardButton hover border">
+                              <span class="StandardButton__text">read more</span>
+
+                           </button>
+                        </div>
+                     </div>
                   </article>
                </div>
 
