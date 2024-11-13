@@ -74,17 +74,23 @@
                      </div>
                   </div>
                   <div class="row justify-content-between">
-                     <div class="col-md-5">
+                     <div class="col-md-5 mb-5">
                         <label class="mainCheckbox">I'd like to hear about news and offers.
                            <input type="checkbox" name="offer">
                            <span class="checkmark"></span>
                         </label>
                      </div>
-                     <div class="col-md-5">
+                     <div class="col-md-5 mb-5">
                         <label class="mainCheckbox">I've read and agree to the <a href="privacy-policy">Privacy Policy</a>
                            <input type="checkbox" name="offer">
                            <span class="checkmark"></span>
                         </label>
+                     </div>
+                     <div class="col-md-12 mb-4">
+                        <button class="StandardButton CardsCard__action-button hover border mt-0" fdprocessedid="7sfztr">
+                           <a href="our-values"><span class="StandardButton__text px-5 py-5">SUBMIT</span></a>
+
+                        </button>
                      </div>
                   </div>
                </form>

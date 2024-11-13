@@ -194,6 +194,12 @@ h1 {
   color: #FEFEFE;
 }
 
+.rightPart a, .rightPart button {
+  font-size: 14px;
+  padding: 0 33px;
+  line-height: 30px;
+}
+
 .section.seven {
   background-color: #0A0A0A;
   z-index: 7;
