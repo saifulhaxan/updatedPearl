@@ -17,6 +17,12 @@ $(document).ready(function () {
     jQuery('.sideBar').addClass('activeBar')
 })
 
+jQuery(document).ready(function() {
+  jQuery('.DefaultPageHeaderDesktop__back-button').click(function() {
+     window.location.replace('/pearlshire');
+  })
+})
+
 jQuery('.sideBar .backBtn').click(function(){
     jQuery('.sideBar').removeClass('activeBar')
 })

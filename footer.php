@@ -199,13 +199,7 @@
    }
 
 
-   // function hideHeader() {
-   //    jQuery('header').hide();
-   // }
-
-   // function showHeader() {
-   //    jQuery('header').show();
-   // }
+  
 </script>
 
 </html>
